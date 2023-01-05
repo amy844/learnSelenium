@@ -21,9 +21,9 @@ public static void main(String[] args) {
 		
 		driver.findElement(By.className("signinbtn")).click();
 		
-	/*	WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		System.out.println(alert.getText());
-		alert.accept();  */
+		alert.accept();
 }
 }
