@@ -22,12 +22,12 @@ public class CaptureScreenshotForPage {
 
 		if (driver instanceof FirefoxDriver) {
 			File fullPageScreenshot = ((FirefoxDriver) driver).getFullPageScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(fullPageScreenshot, new File("./Screenshots/fullPageScreenshot.jpg"));
+			FileUtils.copyFile(fullPageScreenshot, new File("D:\\sSelenium\\LearnSelenium\\Screenshots\\fullPageScreenshot.jpg"));
 
 		} else if (driver instanceof ChromeDriver) {
 
 			File webpage = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(webpage, new File("./Screenshots/webpage.png"));
+			FileUtils.copyFile(webpage, new File("D:\\Selenium\\LearnSelenium\\Screenshots\\webpage.png"));
 		}
 
 		// WebElement name = driver.findElement(By.xpath("//input[@name='name']"));
