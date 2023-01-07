@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Demo Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Assertion(failed)">
+    <classes>
+      <class name="TestNG.SoftAssetion">
+        <methods>
+          <include name="testingAssestion"/>
+        </methods>
+      </class> <!-- TestNG.SoftAssetion -->
+      <class name="TestNG.TestngHardAssertion">
+        <methods>
+          <include name="testingAssestion"/>
+        </methods>
+      </class> <!-- TestNG.TestngHardAssertion -->
+    </classes>
+  </test> <!-- Test Assertion(failed) -->
+  <test thread-count="5" name="Test Dependency(failed)">
+    <classes>
+      <class name="TestNG.AddingDependencyOnMethods">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testRegister"/>
+        </methods>
+      </class> <!-- TestNG.AddingDependencyOnMethods -->
+      <class name="TestNG.DependentMethodsAlwaysRun">
+        <methods>
+          <include name="testRegister"/>
+          <include name="testCreateEmail"/>
+          <include name="testPasswordLink"/>
+        </methods>
+      </class> <!-- TestNG.DependentMethodsAlwaysRun -->
+      <class name="TestNG.AddingMultipleDenpendciesOnMethods">
+        <methods>
+          <include name="testRegister"/>
+          <include name="testLogin"/>
+          <include name="testCreateEmail"/>
+          <include name="testPasswordLink"/>
+        </methods>
+      </class> <!-- TestNG.AddingMultipleDenpendciesOnMethods -->
+    </classes>
+  </test> <!-- Test Dependency(failed) -->
+</suite> <!-- Failed suite [TestNG Demo Suite] -->

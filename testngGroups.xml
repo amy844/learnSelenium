@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Groups Testing Suite">
+	<groups>
+		<run>
+		<include name = "regression" >	</include>
+		<include name = "funtional" >	</include>
+		<exclude name = "smoke" >	</exclude>
+		</run>
+	</groups>
+	<test name="Groups Test">
+		<classes>
+			<class name="TestNGGroups.AddingFuntionalGroup" />
+			<class name="TestNGGroups.AddingRegressionGroup" />
+			<class name="TestNGGroups.AddingSomkeGroup" />
+			<class name="TestNGGroups.TestngAddingGroups" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

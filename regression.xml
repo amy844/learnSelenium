@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+  <test name="Adding Dependecy Test">
+    <classes>
+      <class name="TestngDependencies.AddingDependencyOnMethods"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Muliple Dependency Test">
+    <classes>
+      <class name="TestngDependencies.AddingMultipleDenpendciesOnMethods"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Always Run Test">
+    <classes>
+	<class name="TestngDependencies.DependentMethodsAlwaysRun" />
+</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//Thu_Jan_05_22_33_34_IST_2023.jpg"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//Thu_Jan_05_22_33_34_IST_2023.jpg" target= "_blank">Failure Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//nameScreen.png" ><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//nameScreen.png" target= "_blank">Skipped Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png" target= "_blank">Passed Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png" target= "_blank">Passed Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-07T13:43:09 IST" name="Suite" finished-at="2023-01-07T13:43:09 IST" duration-ms="71">
+    <groups>
+      <group name="funtional">
+        <method signature="AddingTestforListener.functionalTestGrantAdminAccess()[pri:4, instance:TestNGCustomListener.AddingTestforListener@7714e963]" name="functionalTestGrantAdminAccess" class="TestNGCustomListener.AddingTestforListener"/>
+        <method signature="AddingTestforListener.funtionalTestPasswordLink()[pri:3, instance:TestNGCustomListener.AddingTestforListener@7714e963]" name="funtionalTestPasswordLink" class="TestNGCustomListener.AddingTestforListener"/>
+        <method signature="AddingTestforListener.funtionalTestRegister()[pri:1, instance:TestNGCustomListener.AddingTestforListener@7714e963]" name="funtionalTestRegister" class="TestNGCustomListener.AddingTestforListener"/>
+        <method signature="AddingTestforListener.funtionalTestLogin()[pri:2, instance:TestNGCustomListener.AddingTestforListener@7714e963]" name="funtionalTestLogin" class="TestNGCustomListener.AddingTestforListener"/>
+      </group> <!-- funtional -->
+    </groups>
+    <test started-at="2023-01-07T13:43:09 IST" name="Test" finished-at="2023-01-07T13:43:09 IST" duration-ms="71">
+      <class name="TestNGCustomListener.AddingTestforListener">
+        <test-method signature="funtionalTestRegister()[pri:1, instance:TestNGCustomListener.AddingTestforListener@7714e963]" started-at="2023-01-07T13:43:09 IST" name="funtionalTestRegister" finished-at="2023-01-07T13:43:09 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User not Exists]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User not Exists
+at org.testng.Assert.fail(Assert.java:99)
+at TestNGCustomListener.AddingTestforListener.funtionalTestRegister(AddingTestforListener.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//Thu_Jan_05_22_33_34_IST_2023.jpg"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//Thu_Jan_05_22_33_34_IST_2023.jpg" target= "_blank">Failure Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- funtionalTestRegister -->
+        <test-method signature="funtionalTestLogin()[pri:2, instance:TestNGCustomListener.AddingTestforListener@7714e963]" started-at="2023-01-07T13:43:09 IST" name="funtionalTestLogin" finished-at="2023-01-07T13:43:09 IST" depends-on-methods="TestNGCustomListener.AddingTestforListener.funtionalTestRegister" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddingTestforListener.funtionalTestLogin()[pri:2, instance:TestNGCustomListener.AddingTestforListener@7714e963] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddingTestforListener.funtionalTestLogin()[pri:2, instance:TestNGCustomListener.AddingTestforListener@7714e963] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//nameScreen.png" ><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//nameScreen.png" target= "_blank">Skipped Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- funtionalTestLogin -->
+        <test-method signature="funtionalTestPasswordLink()[pri:3, instance:TestNGCustomListener.AddingTestforListener@7714e963]" started-at="2023-01-07T13:43:09 IST" name="funtionalTestPasswordLink" finished-at="2023-01-07T13:43:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png" target= "_blank">Passed Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- funtionalTestPasswordLink -->
+        <test-method signature="functionalTestGrantAdminAccess()[pri:4, instance:TestNGCustomListener.AddingTestforListener@7714e963]" started-at="2023-01-07T13:43:09 IST" name="functionalTestGrantAdminAccess" finished-at="2023-01-07T13:43:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png"><img height= 200 width= 200 src ="D://Selenium//LearnSelenium//Screenshots//webpage.png" ></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="D://Selenium//LearnSelenium//Screenshots//webpage.png" target= "_blank">Passed Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- functionalTestGrantAdminAccess -->
+      </class> <!-- TestNGCustomListener.AddingTestforListener -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
